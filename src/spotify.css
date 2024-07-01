@@ -1,0 +1,16 @@
+.spotify-btn {
+    margin: 10px;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 3rem;
+    font-size: 0.8rem;
+    font-family: Circular-black, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #1ed760;
+    color: black;
+}
+
+.spotify-btn:hover {
+    background-color: #1fdf64;
+}

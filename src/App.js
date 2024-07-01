@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import SpotifyButton from "./SpotifyButton";
+import DeezerButton from "./DeezerButton";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>
+          Spotify & Deezer <br/> Duo mix
+        </h1>
       </header>
+        <div>
+            <p>
+                Share your favorite songs with your friends whether they use Spotify or Deezer. <br/>
+                Just log in with your favorite music streaming service and share your link with to your friends.
+            </p>
+        </div>
+        <SpotifyButton />
+        <DeezerButton />
     </div>
   );
 }

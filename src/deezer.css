@@ -1,0 +1,16 @@
+.deezer-btn {
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 3rem;
+    font-size: 0.8rem;
+    font-family: "NaNMetrify Narrow", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color:#a238ff;
+    color: black;
+    margin: 10px;
+}
+
+.deezer-btn:hover {
+    background-color: #a651ff;
+}
